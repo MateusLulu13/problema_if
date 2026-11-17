@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agendamento de Horários</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Agendamento</h1>
+
+    <img src="images.jpg" alt="gomes">
 
     <h2>Cadastrar</h2>
     <form>
@@ -25,7 +28,12 @@
         <input type="date"><br><br>
 
         <label>Horário:</label>
-        <input type="time"><br><br>
+        <select name="cor_escolhida" id="cores">
+            <option value="">--Selecione uma opção--</option>
+            <option value="1">12:50</option>
+            <option value="2">00:00</option>
+            <option value="3">08:00</option>
+        </select><br><br>
 
         <button type="submit">Salvar</button>
     </form>
@@ -47,7 +55,12 @@
         <input type="text"><br><br>
 
         <label>Novo Horário:</label>
-        <input type="time"><br><br>
+        <select name="cor_escolhida" id="cores">
+            <option value="">--Selecione uma opção--</option>
+            <option value="1">12:50</option>
+            <option value="2">00:00</option>
+            <option value="3">08:00</option>
+        </select><br><br>
 
         <button type="submit">Atualizar</button>
     </form>
